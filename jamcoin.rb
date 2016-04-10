@@ -35,21 +35,6 @@ class Jamcoin
 
     sample = dv.sample if dv.length > 1
 
-    # this is the an old version. the code above is quick fix
-    # unless Prime.prime? number
-    # 	for i in 1..number
-
-    # 		next if i == 1
-    # 		next if i == number
-
-    # 		sample = i
-
-    # 		break if number % i == 0
-
-    # 	end
-
-    # end
-
     sample
   end
 
